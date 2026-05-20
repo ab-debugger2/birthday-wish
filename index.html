@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Beautiful! 🎂</title>
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating background -->
+<div class="floating" id="floating"></div>
+
+<!-- ===== Welcome + Countdown ===== -->
+<section id="welcome">
+  <h1>🎉 Welcome, Birthday Girl! 🎉</h1>
+  <p>Something magical is about to happen... ✨</p>
+
+  <div class="countdown" id="countdown">
+    <div class="time-box">
+      <span class="num" id="days">00</span>
+      <span class="label">Days</span>
+    </div>
+
+    <div class="time-box">
+      <span class="num" id="hours">00</span>
+      <span class="label">Hours</span>
+    </div>
+
+    <div class="time-box">
+      <span class="num" id="minutes">00</span>
+      <span class="label">Minutes</span>
+    </div>
+
+    <div class="time-box">
+      <span class="num" id="seconds">00</span>
+      <span class="label">Seconds</span>
+    </div>
+  </div>
+
+  <button class="btn" id="startBtn">
+    🎂 Start Celebrating Your Birthday 🎂
+  </button>
+</section>
+
+<!-- ===== Birthday Wish ===== -->
+<section id="wish" class="hidden">
+  <h1>🌸 Happy Birthday, Beautiful! 🌸</h1>
+
+  <p>
+   On this very special day, the world celebrates the day you came into it — and so do I!    
+    May your year ahead be sprinkled with laughter, blessed with love, and filled with every    
+    little thing that makes your heart happy. You deserve the whole world, and then some. 💕💖
+  </p>
+
+  <button class="btn show" id="toCakeBtn">
+    🎂 Let's Cut the Cake 🎂
+  </button>
+</section>
+
+<!-- ===== Cake Section ===== -->
+<section id="cake-section" class="hidden">
+
+  <h1>🎂 Time to Cut the Cake! 🎂</h1>
+   <p style="color:#6a1b4d; font-size:1.1rem; margin-top:10px;">Make a wish and tap the cake to blow out the candle!</p>
+  <div class="cake" id="cake">
+
+    <div class="flame" id="flame"></div>
+    <div class="candle"></div>
+
+    <div class="layer layer-top"></div>
+    <div class="drip"></div>
+    <div class="layer layer-middle"></div>
+    <div class="layer layer-bottom"></div>
+
+    <div class="plate"></div>
+
+  </div>
+
+  <p class="cake-hint" id="cakeHint">
+    👆 Tap the cake!
+  </p>
+
+  <button class="btn" id="toGalleryBtn">
+    📸 See Beautiful Memories 📸
+  </button>
+
+</section>
+
+<!-- ===== Gallery ===== -->
+<section id="gallery" class="hidden">
+
+  <h1>📸 Beautiful Memories 📸</h1>
+   <p style="color:#6a1b4d; margin-top:10px;">Every picture tells a story of you ✨</p>
+  <div class="photo-grid">
+
+    <div class="photo">
+      <img src="images/Views like this don_t need filters ✨(HEIC)_1.heic" alt="">
+    </div>
+
+    <div class="photo">
+      <img src="images/Just me and the hills having a moment 🤌🏻🍃(HEIC)_1.heic" alt="">
+    </div>
+
+    <div class="photo">
+      <img src="images/Pahadon ke peeche wali duniyaa 🍂🍁(HEIC).heic" alt="">
+    </div>
+
+    <div class="photo">
+      <img src="images/मुस्कुराइए आप लखनऊ में है 🪞🦢🕊️🪕✨(HEIC)_4.heic" alt="">
+    </div>
+
+    <div class="photo">
+      <img src="images/Snapchat-1119655734.jpg" alt="">
+    </div>
+
+    <div class="photo">
+      <img src="images/The blueprint 🧿(JPG)_3.jpg" alt="">
+    </div>
+
+  </div>
+
+  <button class="btn show" id="toMessageBtn">
+    💌 Read Special Message 💌
+  </button>
+
+</section>
+
+<!-- ===== Message ===== -->
+<section id="message" class="hidden">
+
+  <h1>💌 A Special Message For You 💌</h1>
+
+  <div class="message-card">    
+    <ul>    
+      <li>You are one of the most amazing people I have ever had the joy of knowing.</li>    
+      <li>Your smile lights up every room and makes the world a softer, sweeter place.</li>    
+      <li>Your kindness is rare, and your heart is pure gold — never let anyone dim it.</li>    
+      <li>You inspire me every single day with your strength, grace, and beautiful soul.</li>    
+      <li>You deserve every dream you have ever dared to wish for, and so much more.</li>    
+      <li>Thank you for being the kind of friend that makes life feel like a celebration.</li>    
+      <li>May this year bring you adventures, love, and reasons to laugh out loud.</li>    
+      <li>Promise me you will be as kind to yourself as you are to everyone else.</li>    
+      <li>The world is a brighter, happier place simply because you exist in it.</li>    
+      <li>Happy Birthday, gorgeous — today, tomorrow, and always, you are deeply loved. 💖</li>    
+    </ul>    
+  </div>
+
+  <button class="btn show" id="toThanksBtn">
+    💝 Continue 💝
+  </button>
+
+</section>
+
+<!-- ===== Thanks ===== -->
+<section id="thanks" class="hidden">
+
+  <h1>💝 Thank You 💝</h1>
+
+  <p>
+   Thank you for being you — for your laughter, your love, and the light you bring    
+    into this world. Today is yours, and so is every day after.    
+    Wishing you a year as wonderful as you are! 🌟🌸
+  </p>
+
+  <button class="btn show" id="celebrate-again">
+    🎉 Celebrate Again 🎉
+  </button>
+  <footer>Made with 💖 just for you</footer>
+</section>
+
+<!-- JS LINK -->
+<script src="script.js"></script>
+
+</body>
+</html>
